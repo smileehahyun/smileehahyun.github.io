@@ -3,12 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hahyun Lee - Data Analyst Portfolio</title>
+  <title>Data Analyst Portfolio - Your Name</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #2b3a67;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      text-align: center;
+      background: #3e4c74;
+    }
+    nav a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+    }
+    nav a:hover {
+      background: #56648a;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .section h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+      color: #2b3a67;
+    }
+    .project {
+      background: white;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-left: 5px solid #2b3a67;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #2b3a67;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I'm Hahyun Lee 👋</h1>
-  <p>This is my data analyst portfolio hosted on GitHub Pages.</p>
-  <p>More coming soon!</p>
+  <header>
+    <h1>Your Name</h1>
+    <p>Data Analyst | Python | SQL | Tableau</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Hello! I'm a data analyst passionate about finding insights through data. I enjoy turning complex problems into simple, visual stories using Python, SQL, and Tableau. I have experience in marketing analytics, customer behavior modeling, and data storytelling.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+
+      <div class="project">
+        <h3>🛍️ E-commerce Sales Analysis</h3>
+        <p>Analyzed 2 years of sales data to identify seasonal trends and improve marketing campaign efficiency. Built dashboards in Tableau and performed cohort and RFM analysis.</p>
+        <p><strong>Tools:</strong> Python, Pandas, Tableau</p>
+        <p><a href="#">GitHub ↗</a> | <a href="#">Live Dashboard ↗</a></p>
+      </div>
+
+      <div class="project">
+        <h3>📦 Delivery App Review Sentiment Analysis</h3>
+        <p>Scraped and analyzed over 10,000 delivery app reviews to uncover user satisfaction drivers. Applied NLP techniques to compare sentiment by food category and region.</p>
+        <p><strong>Tools:</strong> Python, BeautifulSoup, Scikit-learn</p>
+        <p><a href="#">GitHub ↗</a></p>
+      </div>
+
+      <div class="project">
+        <h3>📊 Climate and Consumption Pattern Analysis</h3>
+        <p>Investigated how temperature changes influence hourly consumption patterns using public weather and transaction datasets. Shared findings with interactive Tableau dashboards.</p>
+        <p><strong>Tools:</strong> SQL, Python, Tableau</p>
+        <p><a href="#">GitHub ↗</a> | <a href="#">Tableau Public ↗</a></p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+      <p>Resume: <a href="#">Download PDF</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
 </body>
 </html>
-
